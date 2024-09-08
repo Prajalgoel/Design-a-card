@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@100;300&display=swap');
+
+body{
+    background-color: grey;
+}
+.box{
+    width: 25vw;
+    margin: 15px auto ;
+    padding: 10px;
+    border-radius: 15px ;
+    background-color: white;
+    
+}
+
+.photo img{
+    border-radius: 15px;    
+}
+
+.nav{
+    padding: 5px 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nav span{
+    padding: 2px 7px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    color: grey;
+    margin: 3px;
+}
+
+.para h2{
+    font-family: "Baloo Bhai 2", system-ui;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    
+}
+
+.para p{
+    font-family: "Baloo Bhai 2", system-ui;
+    font-weight: 500;
+    font-size: larger;
+    color: gray;
+    padding: 10px;
+    position: relative;
+    bottom: 18px;
+    margin-bottom: 2px;
+
+}
+
+/* .read{
+    font-family: "Baloo Bhai 2", system-ui;
+    font-weight: 500;
+    border: none;
+    text-align: center;
+    color: blue;
+    border-radius: 25px;
+    padding: 5px;
+    margin: auto;
+    width: 100px;
+    position: relative;
+    bottom: 20px;
+    background-color: rgb(203, 217, 223); */
+
+.read{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.read button{
+    font-family: "Baloo Bhai 2", system-ui;
+    font-weight: 500;
+    border: none;
+    color: blue;
+    border-radius: 25px;
+    padding: 5px;
+    width: 100px;
+    position: relative;
+    bottom: 15px;
+    background-color: rgb(146, 210, 237);
+    cursor: pointer;
+    
+}
+
+.read button:hover{
+    background-color: rgb(152, 140, 215);
+}
+
+}
+    
+
